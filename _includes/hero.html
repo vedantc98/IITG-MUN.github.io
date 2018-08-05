@@ -1,16 +1,20 @@
 <!-- Begin Hero Section -->
-<section id="top-section-hero" class="top-section-hero top-section image-section" style="background-image: url('{{ site.baseurl }}/img/sections-background/{{ site.heroImage }}');">
+<section id="top-section-hero" class="top-section-hero top-section image-section" style="background-image: url('{{ site.baseurl }}/img/sections-background/herobg.png'); width:99vw;">
     {% include navigation.html %}
     <div class="content-wrapper">
-    <div class="jumbotron">
+    <div class="jumbotron desktop">
         <div class="animated hiding" data-animation="fadeInDown" data-delay="500">
-            {% assign heroText = site.heroTitle | split:"<typeout>" %}
-            <h1>{{ heroText[0] }}{{ heroText[1] }}</h1>
-            <p>{{ site.eventDate }}</p>
-            <!-- {% for button in site.heroButtons %}
-            <a href="{% if button.permalink != null %} {{ button.permalink | prepend: site.baseurl }} {% else %} {{ button.link }} {% endif %}" class="btn btn-primary waves-effect waves-button waves-light waves-float" {% if button.link != null %}target="_blank"{% endif %}>{{ button.text }}</a>
-            {% endfor %} -->
-        </div>
+            <h3 style="font-size: 7.36vh;letter-spacing: 1px;color: rgb(39,32,161);text-align:right;margin-right: 6.2%;margin-bottom: 0px;margin-top:28vh;font-weight:normal;">IIT Guwahati</h3>
+            <h1 style="font-size: 20.64vh;letter-spacing: 2px;color: rgb(39,32,161);text-align:right;line-height: 0.8;margin-right: 5.5%;margin-top:0px;margin-bottom:0px;">MUN</h1>
+            <h2 style="font-size: 8.62vh;letter-spacing: 1px;color: rgb(172,130,48);text-align:right;margin-right: 6.1%;margin-top: 6.9vh;">EDITION X</h2>
+          </div>
+    </div>
+    <div class="container mobile">
+        <div class="animated hiding" data-animation="fadeInDown" data-delay="500">
+            <h3 style="font-size: 7.36vh;letter-spacing: 1px;color: rgb(39,32,161);margin-right: 6.2%;margin-bottom: 0px;margin-top:28vh;font-weight:normal;">IIT Guwahati</h3>
+            <h1 style="font-size: 20.64vh;letter-spacing: 2px;color: rgb(39,32,161);line-height: 0.8;margin-right: 5.5%;margin-top:0px;margin-bottom:0px;">MUN</h1>
+            <h2 style="font-size: 8.62vh;letter-spacing: 1px;color: rgb(172,130,48);margin-right: 6.1%;margin-top: 6.9vh;">EDITION X</h2>
+          </div>
     </div>
     <a href="#about" class="explore">
         <svg class="icon icon-arrow-down" viewBox="0 0 32 32">

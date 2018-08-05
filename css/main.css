@@ -1,4 +1,4 @@
-@import url("//fonts.googleapis.com/css?family=Roboto%3A100%2C300%2C500");
+@import url("//fonts.googleapis.com/css?family=IBM Plex Sans:400,300,700,500,100");
 html {
     font-family: sans-serif;
     -ms-text-size-adjust: 100%;
@@ -108,7 +108,7 @@ html {
     font-size: 10px;
     -webkit-tap-highlight-color: transparent}
 body {
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "IBM Plex Sans",Helvetica,Arial,sans-serif;
     font-size: 14px;
     line-height: 1.42857;
     color: #333;
@@ -118,7 +118,7 @@ input,button,select,textarea {
     font-size: inherit;
     line-height: inherit}
 a {
-    color: #03a9f4;
+    color: #ac8230;
     text-decoration: none}
 a:hover,a:focus {
     color: #0275a8;
@@ -173,11 +173,11 @@ hr {
     clip: auto}
 h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6 {
     font-family: inherit;
-    font-weight: 500;
+    font-weight: bold;
     line-height: 1.1;
     color: inherit}
 h1 small,h1 .small,h2 small,h2 .small,h3 small,h3 .small,h4 small,h4 .small,h5 small,h5 .small,h6 small,h6 .small,.h1 small,.h1 .small,.h2 small,.h2 .small,.h3 small,.h3 .small,.h4 small,.h4 .small,.h5 small,.h5 .small,.h6 small,.h6 .small {
-    font-weight: normal;
+    font-weight: bold;
     line-height: 1;
     color: #777}
 h1,.h1,h2,.h2,h3,.h3 {
@@ -207,7 +207,7 @@ p {
 .lead {
     margin-bottom: 20px;
     font-size: 16px;
-    font-weight: 300;
+    font-weight: bold;
     line-height: 1.4}
 small,.small {
     font-size: 85%}
@@ -609,7 +609,7 @@ input[type="search"] {
     min-height: 20px;
     padding-left: 20px;
     margin-bottom: 0;
-    font-weight: normal;
+    font-weight: bold;
     cursor: pointer}
 .radio input[type="radio"],.radio-inline input[type="radio"],.checkbox input[type="checkbox"],.checkbox-inline input[type="checkbox"] {
     position: absolute;
@@ -622,7 +622,7 @@ input[type="search"] {
     padding-left: 20px;
     margin-bottom: 0;
     vertical-align: middle;
-    font-weight: normal;
+    font-weight: bold;
     cursor: pointer}
 .radio-inline+.radio-inline,.checkbox-inline+.checkbox-inline {
     margin-top: 0;
@@ -787,14 +787,13 @@ textarea.input-lg,select[multiple].input-lg {
 .btn {
     display: inline-block;
     margin-bottom: 0;
-    font-weight: normal;
+    font-weight: bold;
     text-align: center;
     vertical-align: middle;
     -ms-touch-action: manipulation;
     touch-action: manipulation;
     cursor: pointer;
     background-image: none;
-    border: 1px solid transparent;
     white-space: nowrap;
     padding: 6px 12px;
     font-size: 14px;
@@ -919,7 +918,7 @@ textarea.input-lg,select[multiple].input-lg {
     background-color: #fff}
 .btn-link {
     color: #03a9f4;
-    font-weight: normal;
+    font-weight: bold;
     border-radius: 0}
 .btn-link,.btn-link:active,.btn-link.active,.btn-link[disabled],fieldset[disabled] .btn-link {
     background-color: transparent;
@@ -991,7 +990,7 @@ tbody.collapse.in {
 .jumbotron p {
     margin-bottom: 15px;
     font-size: 36px;
-    font-weight: 400}
+    font-weight: bold}
 .jumbotron>hr {
     border-top-color: #d5d5d5}
 .container .jumbotron,.container-fluid .jumbotron {
@@ -1050,7 +1049,7 @@ a.thumbnail:hover,a.thumbnail:focus,a.thumbnail.active {
 .embed-responsive {
     position: relative;
     display: block;
-    height: 0;
+    height: 480px;
     padding: 0;
     overflow: hidden}
 .embed-responsive .embed-responsive-item,.embed-responsive iframe,.embed-responsive embed,.embed-responsive object,.embed-responsive video {
@@ -1414,9 +1413,9 @@ button.close {
 a.waves-effect .waves-ripple {
     z-index: -1}
 body,html {
-    font-family: "Roboto",sans-serif;
+    font-family: "IBM Plex Sans",sans-serif;
     font-size: 13px;
-    font-weight: 300;
+    font-weight: bold;
     width: 100%;
     height: 100%;
     background: #fff;
@@ -1435,20 +1434,20 @@ section h3 {
     margin-bottom: 50px}
 p {
     font-size: 15px;
-    font-weight: 300;
+    font-weight: normal;
     line-height: 23px}
 i {
     font-style: normal}
 b,strong {
-    font-weight: 500}
+    font-weight: bold}
 a {
-    color: #03a9f4}
+    color: #ac8230}
 a:hover,a:active,a:focus {
-    color: #60ccfd}
+    color: #ac8230}
 a:hover,a:active,a:focus {
     text-decoration: none}
 h1,h2,h3,h4,h5,h6 {
-    font-weight: 100;
+    font-weight: bold;
     display: block}
 h1 {
     font-size: 79.625px}
@@ -1502,7 +1501,7 @@ time {
     background-image: url("../img/sprites/logo3.gif");
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: center; 
+    background-position: center;
     background-size: 280px;
     background-color: #fff}
 .loader-gplus {
@@ -1681,7 +1680,7 @@ time {
     margin-right: 4px;
     display: inline-block}
 .btn {
-    font-weight: 500;
+    font-weight: bold;
     -webkit-transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
     transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275)}
 .btn-primary {
@@ -1714,7 +1713,7 @@ time {
     fill: #4285f4}
 .image-section {
     color: #fff;
-    font-weight: 100;
+    font-weight: bold;
     background-repeat: no-repeat;
     background-position: center center !important;
     background-size: cover !important}
@@ -1745,9 +1744,11 @@ time {
     bottom: 0;
     left: 0}
 .overlay.solid-overlay {
-    background: rgba(37,32,31,0.8)}
+    background: rgba(39,32,161,0.8)}
 .overlay.white-solid {
-    background: rgba(255,255,255,0.9)}
+    background: rgba(255,255,255,0.9);
+    box-shadow: 1px 1px 18px #757575;
+  }
 .overlay.gradient-overlay {
     background: -webkit-linear-gradient(top, rgba(0,0,0,0.32) 0%, rgba(0,0,0,0) 32%, rgba(0,0,0,0.64) 100%);
     background: linear-gradient(to bottom, rgba(0,0,0,0.32) 0%,rgba(0,0,0,0) 32%,rgba(0,0,0,0.64) 100%)}
@@ -1824,17 +1825,18 @@ time {
         };
     background-repeat: no-repeat}
 .logo.logo-dark {
-    background-image: url("../img/sprites/IITG mun logo-01 black.svg");
+    background-image: url("../img/sprites/logo_blue_2.png");
     background-position: center;
-    background-size: 226px 150px;}
+    background-size: 100% 100%;}
 .logo.logo-gray {
     background-image: url("../img/sprites/IITG mun logo-01 black.svg");
     background-position: center;
-    background-size: 226px 150px;}
+    background-size: 226px 200px;}
 .logo.logo-light {
-    background-image: url("../img/sprites/IITG mun logo white-01.svg");
+    background-image: url("../img/sprites/logo_blue_2.png");
     background-position: center;
-    background-size: 226px 150px;}
+    background-size: 100% 100%;
+}
 .icon {
     display: inline-block;
     width: 16px;
@@ -1882,7 +1884,7 @@ time {
 .top-header.after-scroll .overlay {
     opacity: 1}
 .top-header .overlay {
-    opacity: 0;
+    opacity: 1;
     -webkit-transition: all 0.3s;
     transition: all 0.3s}
 .logo-header {
@@ -1899,12 +1901,12 @@ time {
 .logo-header .logo {
     display: inline-block;
     float: left;
-    width: 226px;
-    height: 65px;
+    width:7vw;
+    height: 12vh;
     margin-right: 20px;
     -webkit-transform: scale(0.7);
     -ms-transform: scale(0.7);
-    transform: scale(0.7);
+    transform: scale(0.5);
     vertical-align: middle}
 .logo-navbar {
     width: 226px;
@@ -1919,12 +1921,12 @@ time {
     -ms-transform: translate(0);
     transform: translate(0)}
 nav ul {
-    float: left;
+    float: right;
     margin: 0;
     padding: 0;
     list-style: none;
     text-align: left;
-    font-sixe: 32px;
+    font-size: 0.85vw;
     -webkit-transform: translateY(40px);
     -ms-transform: translateY(40px);
     transform: translateY(40px);
@@ -1936,22 +1938,23 @@ nav ul {
     transform: translateY(20px)}
 nav li {
     display: inline-block;
-    padding: 0 8px;
+    font-size: 0.85vw;
+    padding: 0 4.16667vw;
     vertical-align: middle}
 nav li a {
-    font-size: 20px;
-    font-weight: 300;
+    font-size:1.2vw;
+    font-weight: bold;
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
     text-transform: uppercase;
-    color: #fff}
+    color: #2720a1;}
 nav li a.current,nav li a:hover {
     text-decoration: none;
-    color: #cfcfcf}
+    color: #2720a1;}
 .top-header.after-scroll nav li a {
-    color: rgba(0,0,0,0.5)}
+    color: rgba(39,32,161,0.8)}
 .top-header.after-scroll nav li a.current,.top-header.after-scroll nav li a:hover {
-    color: rgba(0,0,0,0.8)}
+    color: rgba(39,32,161,0.8)}
 .right-nav-button {
     margin: 11px 11px 0 0;
     -webkit-transition: all 0.3s;
@@ -2002,7 +2005,7 @@ nav li a.current,nav li a:hover {
     transform: translateY(-60%)}
 .top-section-hero .jumbotron p {
     font-size: 36px;
-    font-weight: 400;
+    font-weight: bold;
     margin-bottom: 15px}
 .top-section-hero .jumbotron .btn {
     margin: 0 3px}
@@ -2079,19 +2082,20 @@ nav li a.current,nav li a:hover {
     color: #fff;
     background: 0}
 .about-details img {
-    width: 128px}
+    width: 200px;}
 .about-details p {
     margin-top: 10px}
 .statistic .stat {
-    font-size: 100px;
-    color: #03a9f4}
+    font-size: 110px;
+    color: #d0a95e}
 .statistic .stat-info {
-    font-size: 23px}
+    font-size: 28px;
+    color:#d0a95e;}
 .statistic hr {
     width: 20px;
     border-top: 1px solid #03a9f4}
 .statistic .small {
-    font-size: 15px}
+    font-size: 18px}
 .latest-news .post {
     margin-bottom: 40px}
 .rockstar-speakers .name {
@@ -2280,13 +2284,13 @@ nav li a.current,nav li a:hover {
 .venue-small-elem {
     height: 200px}
 .venue-text {
-    padding: 30px 20px;
+    padding: 20px 20px;
     color: #fff;
-    background: #03a9f4}
-.venue-text h5 {
+    background: #2720a1;}
+.venue-text h4 {
     margin-top: 0}
 .venue-text p {
-    font-size: 17px}
+    font-size: 27px}
 .twitter-feed h3 {
     margin-bottom: 10px}
 .twitter-feed .icon {
@@ -2554,7 +2558,8 @@ nav li a.current,nav li a:hover {
 .list-with-description a {
     display: block}
 .team h3 {
-    margin-bottom: 26px}
+    margin-bottom: 26px;
+    color:#2720a1;}
 .team h4 {
     margin: 50px 0 20px;
     text-align: center}
@@ -3579,7 +3584,7 @@ section {
     padding-top: 20px;
     padding-bottom: 40px}
 section h3 {
-    padding-bottom: 30px}
+    padding-bottom: 0px}
 h1 {
     font-size: 47.775px}
 h2 {
@@ -3639,14 +3644,14 @@ nav li a {
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
     text-transform: none;
-    color: rgba(0,0,0,0.3);
+    color: rgba(39,32,161,0.3);
     outline: 0}
 nav li a.current,nav li a:hover {
-    color: #03a9f4}
+    color: #2720a1;}
 .top-header.after-scroll nav li a {
     top: 20px}
 .top-header.after-scroll nav li a.current,.top-header.after-scroll nav li a:hover {
-    color: #03a9f4}
+    color: #2720a1;}
 .top-section-hero .jumbotron {
     margin: 0;
     padding: 0}
@@ -3983,7 +3988,7 @@ th.visible-md,td.visible-md {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    max-height: 500px; 
+    max-height: 500px;
     width: 100%;
 }
 
@@ -3992,10 +3997,18 @@ th.visible-md,td.visible-md {
 }
 
 #apply-button {
-    background-color: blue;
+    background-color: #ac8230;
 }
 
 #contact-us-top {
+    min-height: 350px;
+    filter: brightness(0.6);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+#apply-top {
     min-height: 350px;
     filter: brightness(0.6);
     background-repeat: no-repeat;
@@ -4019,8 +4032,8 @@ th.visible-md,td.visible-md {
 
 .enter {
     color: white;
-    font-family: 'Roboto', sans-serif;
-    font-weight: normal;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: bold;
 }
 
 .apply-type {
@@ -4040,14 +4053,14 @@ th.visible-md,td.visible-md {
     right: 45%;
     bottom: 10%;
     vertical-align: bottom;
-    background-color: blue;
+    background-color: #ac8230;
 }
 
 .councils-main {
 }
 
 .agenda-title {
-    
+
 }
 
 #unsc-main {
@@ -4072,7 +4085,7 @@ th.visible-md,td.visible-md {
 }
 
 .agenda-container {
-    
+
 }
 
 .about-agenda {
@@ -4092,17 +4105,16 @@ th.visible-md,td.visible-md {
     width: 100%;
 }
 
-body.modal div.modal-backdrop { 
-    z-index: 0; 
+body.modal div.modal-backdrop {
+    z-index: 0;
 }
 
 #apply-button-main {
+    color: #ac8230;
+    font-size: 1.2vw;
     background-color: transparent;
 }
 
-#apply-button-main:hover {
-    background-color: black;
-}
 
 #team-top-section {
     filter: brightness(0.6);
@@ -4122,5 +4134,156 @@ body.modal div.modal-backdrop {
 .teamImage {
     background-size: cover;
     background-position: center center;
-    background-repeat: no-repeat;   
+    background-repeat: no-repeat;
+}
+.intrinsic-container {
+  position: relative;
+  height: 0;
+  overflow: hidden;
+}
+
+/* 16x9 Aspect Ratio */
+.intrinsic-container-16x9 {
+  padding-bottom: 56.25%;
+}
+
+/* 4x3 Aspect Ratio */
+.intrinsic-container-4x3 {
+  padding-bottom: 75%;
+}
+
+.intrinsic-container iframe {
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.councils-button {
+    padding: 10px;
+}
+
+#top-section-workshop{
+  background-color: #2720a1;
+      height: 100%;
+      position: relative;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100vh;
+}
+.workshop-margin{
+  margin-left: 13%;
+  margin-right: 13%;
+  padding: 20px;
+}
+#workshop-text{
+  padding-top: 50px;
+  font-size: 30px;
+  text-align: justify;
+  font-weight: normal;
+}
+#secy-pic{
+  width:43.67%;
+  padding-right: 0px;
+}
+#secy-letter{
+  width:39.67%;
+  background-color: #ac8230;
+  padding-right:  15px;
+  font-weight: normal;
+}
+.nav-button{
+  color: #2720a1;
+}
+#main-workshop{
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.workshop-button{
+  padding: 5px 20px;
+  font-size: 25px;
+  margin: 25px;
+  margin-top: 60px;
+  background-color:#ac8230;
+  color:white;
+  width: 208px;
+  height: 53px;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  border-top-width: 0px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 0px;
+  font-weight: bold;
+}
+
+.association-collaboration{
+  padding:0% 20%;
+}
+
+.mobile{
+    display: none;
+}
+
+
+@media only screen and (max-width:720px) {
+    #top-section-hero{
+        background-color: white !important;
+        background-image: none !important;
+    }
+
+    .jumbotron .animated {
+        position: relative;
+        bottom: 20vh;
+        right: 15vw;
+    }
+
+    #workshop-text{
+        font-size: 1.5em;
+    }
+
+    .workshop-button{
+        width: 30vw;
+        height: 5vh;
+        font-size: 3vw;
+    }
+
+    .desktop{
+        display: none !important;
+    }
+
+    .logo-light{
+        bottom: 0vh !important;
+        width: 17vw !important;
+    }
+
+    .mobile .h1{
+        font-size: 20vh !important;
+    }
+
+    .mobile .h2{
+        font-size: 7vh !important;
+    }
+
+    .mobile .h3{
+        font-size: 5vh !important;
+    }
+
+    .mobile{
+        display: flex;
+        height: 100%;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+#workshop-link{
+    color: #ac8230;
+}
+
+.logo-light{
+    width: 8vw !important;
 }

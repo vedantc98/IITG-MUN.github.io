@@ -7,15 +7,23 @@
                 <div class="pull-left">
                     <h3>{{ site.contactUsBlockTitle }}</h3>
                     <div class="row">
-                        {% for contact in site.contacts %}
-                        <div class="col-md-4 col-xs-4 col-sm-4">
-                            <ul>
-                                <a href={{ contact.fbLink }} style="font-size: 21px;"><li><b>{{ contact.name }}</b></li></a>
-                                <li>{{ contact.designation }}</li>
-                                <li>{{ contact.contactNumber }}</li>
-                            </ul>
-                        </div>
+                      <h4 style="color:#2720a1">Feel free to:</h4>
+                      <h4 style="color:#ac8230">Mail us:</h4>
+                      <ul>
+                        <li>iitgmun@alcheringa.in</li><br>
+                      </ul>
+                      <h4 style="color:#ac8230">Follow us:</h4>
+                      <ul>
+                        {% for socialLink in site.socialLinks %}
+                                <li>{{ socialLink.link }}</li><br>
                         {% endfor %}
+                      </ul>
+                      <h4  style="color:#ac8230">Call us:</h4>
+                      <ul>
+                        {% for contact in site.contacts %}
+                                <li>{{ contact.contactNumber }}</li><br>
+                        {% endfor %}
+                      </ul>
                     </div>
                 </div>
             </div>

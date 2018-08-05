@@ -1,7 +1,7 @@
 $nav-color: #fff;
 $nav-color-hover: #cfcfcf;
 $nav-scroll-color: rgba(0, 0, 0, .5);
-$nav-scroll-color-hover: rgba(0, 0, 0, .8);
+$nav-scroll-color-hover: rgba(0, 0, 0, 1);
 
 .top-header {
     position: fixed;
@@ -124,6 +124,7 @@ nav {
                 }
             }
             .top-header.after-scroll & {
+                font-weight: bold;
                 color: $nav-scroll-color;
                 @media (max-width: 767px) {
                     top: 20px;

@@ -21,7 +21,7 @@
         }
         if ($(window).scrollTop() >= 100) {
             $('#top-header').addClass('after-scroll');
-            $('#logo-header .logo').removeClass('logo-light').addClass('logo-dark');
+            // $('#logo-header .logo').removeClass('logo-light').addClass('logo-dark');
         }
 
         $(window).scroll(function() {

@@ -2,16 +2,18 @@
 <section id="councils" class="about">
 	<div class="content-wrapper">
         <div class="col-lg-10 col-lg-offset-1">
-            <h4>{{ site.latestNewsTitle }}</h4>
+            <h4  style="color:#2720a1;">{{ site.latestNewsTitle }}</h4>
             <div class="row about-details">
                 {% assign animationDelay = 0 %}
                 {% for about in site.latestNewsBlock %}
                 {% assign colWidth = 12 | divided_by: forloop.length %}
-                <div class="col-md-{{ colWidth }} col-xs-6">  
+                <div class="col-md-{{ colWidth }} col-xs-6">
                     <div class="animated hiding" data-animation="fadeInDown" data-delay="{{ animationDelay }}">
-                        <h5>{{ about.title }}</h5>
-                        <a href = "{{ site.baseurl }}/{{ about.link }}/"><img class="img-rounded" src="{{ site.baseurl }}/img/about-section/{{ about.image }}" height="128" width="128" alt="{{ about.title }}"></a>
-                        <p>{{ about.text }}</p>
+                        <div class="councils-button">
+                        <a href = "{{ site.baseurl }}/{{ about.link }}/"><img class="img-rounded" style="width:200px;" src="{{ site.baseurl }}/img/about-section/{{ about.image }}" height="200" width="200" alt="{{ about.title }}"></a>
+                        <p style="font-family:normal;">{{ about.text }}</p>
+                        </div>
+												<h5 style="color:rgb(172,130,48); font-weight:normal;">{{ about.title }}</h5>
                     </div>
                 </div>
                 {% assign animationDelay = animationDelay | plus:500 %}

@@ -1,13 +1,13 @@
 <!-- Begin Sponsors section -->
-<section id = "about" class = "about">
+<section id = "about" class = "about" style="background-color:#EBEBEB">
 	<div class="content-wrapper">
-        <div class="col-lg-10 col-lg-offset-1">
-            <h4>{{ site.sponsors2Title }}</h4>
-            <div class="row about-details">
+        <div class="col-lg-10 col-lg-offset-1 association-collaboration">
+            <h4  style="color:#2720a1;font-weight:normal; ">{{ site.sponsors2Title }}</h4>
+            <div class="row about-details" style="margin-top:40px;">
                 {% assign animationDelay = 0 %}
                 {% for sponsor in site.sponsors2List %}
                 {% assign colWidth = 12 | divided_by: 2 %}
-                <div class="col-md-6 col-xs-6" align="center">  
+                <div class="col-md-6 col-xs-6" align="center">
                     <div class="animated hiding" data-animation="fadeInDown" data-delay="{{ animationDelay }}">
                         <!-- <h5>{{ sponsor.title }}</h5> -->
                         <img class="img-responsive" src="{{ site.baseurl }}/img/sponsor-logos/{{ sponsor.image }}" height = "128" width = "128" alt="{{ sponsor.title }}">
